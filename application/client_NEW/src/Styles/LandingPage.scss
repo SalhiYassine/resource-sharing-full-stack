@@ -1,0 +1,117 @@
+.LandingPage {
+  .row {
+    justify-content: center;
+  }
+  .titleContainer {
+    .title {
+      text-align: center;
+      font-weight: 800;
+      font-weight: bold;
+      font-size: 40px;
+      line-height: 49px;
+      text-align: center;
+      color: #000000;
+      background: #ffffff;
+      padding: 0.5em 1em !important;
+      border-radius: 30px;
+      padding: 20px;
+      span {
+        color: #2f80ed;
+      }
+
+      @media screen and (max-width: 800px) {
+        font-size: 24px;
+      }
+    }
+    @media screen and (max-width: 800px) {
+      padding: 0px !important;
+    }
+  }
+
+  .signUpContainer {
+    @media screen and (max-width: 800px) {
+      padding: 0px;
+    }
+    .input-group-append {
+      background: #dddddd;
+      box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.11);
+      border-radius: 0px 20px 20px 0px;
+      height: 92px;
+    }
+    .rightAddon button {
+      background: #dddddd;
+      box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.11);
+      border-radius: 0px 20px 20px 0px;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 24px;
+      text-align: center;
+      width: 225px;
+      border: 0px;
+      @media screen and (max-width: 800px) {
+        font-size: 16px;
+        line-height: 20px;
+        width: 95px;
+      }
+    }
+    .leftAddon span {
+      background: #ffffff;
+      border-radius: 20px 0px 0px 20px;
+      border: 1px;
+      img {
+        width: 37.16px;
+        height: 51.03px;
+      }
+    }
+    input {
+      height: 92px;
+      font-size: 24px;
+      line-height: 28px;
+      color: #111111;
+      border: 0px;
+      @media screen and (max-width: 800px) {
+        font-size: 18px;
+      }
+    }
+    input:hover,
+    input:active,
+    input:focus {
+      outline: none !important;
+      border-color: inherit;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+    }
+  }
+
+  .CardContainer {
+    justify-content: space-between;
+    .Card {
+      background: #ffffff;
+      // box-shadow: 0px 4px 4px rgb(0, 0, 0.25);
+      border-radius: 20px;
+      padding: 50px 30px;
+      min-width: 300px;
+      width: 32%;
+      max-width: 400px;
+      margin: 0 auto;
+      margin-bottom: 2rem;
+      .logoContainer {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      .title {
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+        color: #2f80ed;
+      }
+      .descriptionContainer {
+        p {
+          font-size: 18px;
+          font-style: normal;
+          font-weight: normal;
+        }
+      }
+    }
+  }
+}

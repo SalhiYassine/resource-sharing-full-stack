@@ -1,0 +1,21 @@
+.create-resource-container {
+    padding: 50px;
+    justify-content: space-evenly;
+    overflow: hidden;
+    /*  */
+    background: rgba( 255, 255, 255, 0.55);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    backdrop-filter: blur( 6.5px);
+    -webkit-backdrop-filter: blur( 6.5px);
+    border-radius: 10px;
+}
+
+.action-button {
+    background-color: rgba(51, 64, 243, 0.945);
+    color: rgb(255, 255, 255);
+}
+
+.action-button:hover {
+    background-color: rgb(35, 49, 245);
+    color: white;
+}

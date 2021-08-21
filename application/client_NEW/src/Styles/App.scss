@@ -1,0 +1,104 @@
+@import "./Resources";
+@import "./Sidebar";
+@import "./TopBar";
+@import "./ContentView";
+@import "./RegisterPage";
+@import "./ProgressPage";
+@import "./Students";
+@import "./Messages";
+@import "./Form";
+@import "./Profile";
+@import "./Colleagues";
+@import "./Settings";
+@import "./LandingPage.scss";
+@import "./Admin.scss";
+@import "./Home.scss";
+
+.App {
+  display: flex;
+  width: 100%;
+  align-items: stretch;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
+body {
+  font-family: "Poppins", sans-serif;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  background-image: url("../assets/header-bg.png");
+  background-size: cover;
+}
+
+.dark {
+  background: radial-gradient(
+    circle,
+    rgb(90, 26, 54) 0%,
+    rgb(26, 68, 117) 100%
+  );
+}
+
+a,
+a:hover,
+a:focus {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.glass-styling {
+  background: rgba(255, 255, 255, 0.55);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(6.5px);
+  -webkit-backdrop-filter: blur(6.5px);
+  border-radius: 10px;
+}
+
+/* width */
+
+::-webkit-scrollbar {
+  width: 14px;
+  height: 90%;
+  border-radius: 10px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.178);
+  border-radius: 10px;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.55);
+  backdrop-filter: blur(6.5px);
+  -webkit-backdrop-filter: blur(6.5px);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(240, 240, 240);
+}
+
+.invalid-indicator-text {
+  font-size: 1em !important;
+  font-weight: 500 !important;
+  color: #dd0000 !important;
+  text-align: center !important;
+}

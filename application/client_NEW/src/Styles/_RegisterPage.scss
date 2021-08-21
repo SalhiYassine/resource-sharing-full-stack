@@ -1,0 +1,39 @@
+.form-container {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 5px;
+}
+
+.form-container form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: fit-content;
+  padding: 50px;
+  width: 80%;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 750px) {
+  .form-container {
+    input {
+      width: 85%;
+      min-width: 200px;
+    }
+    h6 {
+      font-size: 15px;
+    }
+  }
+  .register-btn {
+    height: 20px;
+    width: 50px;
+  }
+}
+
+.authentication-logo {
+  height: 150px;
+}

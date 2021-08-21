@@ -1,0 +1,150 @@
+.admin-container {
+  height: calc(100vh - 3rem - 76.8px - 14px);
+  overflow-y: auto;
+}
+
+.admin-glass-styling {
+  background: rgba(255, 255, 255, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.4);
+  backdrop-filter: blur(6.5px);
+  -webkit-backdrop-filter: blur(6.5px);
+  border-radius: 10px;
+}
+
+.admin-overflow {
+  overflow-y: auto;
+  height: 300px;
+}
+
+.admin-overflow p {
+  font-size: 1.2em;
+}
+
+.admin-input form {
+  width: 100%;
+}
+
+.admin-input input {
+  width: 100%;
+  background: rgba(200, 200, 200, 0.4);
+  padding: 2px 12px;
+  border: 4px solid rgba(200, 200, 200, 0);
+  border-radius: 2em;
+  transition: 0.2s;
+}
+
+.admin-input input:focus {
+  outline: 0;
+  border-color: #2331f5;
+}
+
+// .admin-information {
+//   margin-top: 10px;
+//   margin-bottom: 25px;
+//   margin-right: 20px;
+//   margin-left: 20px;
+//   font-size: 30px;
+//   height: 100px;
+//   background: rgba(255, 255, 255, 0.25);
+//   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+//   backdrop-filter: blur(4px);
+//   -webkit-backdrop-filter: blur(4px);
+//   border-radius: 10px;
+//   border: 1px solid rgba(255, 255, 255, 0.18);
+//   display: flex;
+// }
+
+// /*.container{
+//     background-color: azure;
+//     height: 300px;
+//     overflow-y: auto;
+//     padding-bottom: 5px;
+// }*/
+
+// .admin-container {
+//   margin-right: 30px;
+//   margin-left: 30px;
+//   height: 300px;
+//   overflow-y: auto;
+//   padding-bottom: 5px;
+
+//   background: rgba(255, 255, 255, 0.25);
+//   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+//   backdrop-filter: blur(4px);
+//   -webkit-backdrop-filter: blur(4px);
+//   border-radius: 10px;
+//   border: 1px solid rgba(255, 255, 255, 0.18);
+// }
+// .admin-user-name {
+//   margin-left: 20px;
+//   font-size: 21px;
+// }
+
+// .admin-edit-button {
+//   vertical-align: middle;
+//   margin-top: 25px;
+//   margin-left: 575px;
+//   height: 50px;
+//   box-shadow: inset 0px 1px 0px 0px #97c4fe;
+//   background: linear-gradient(to bottom, #3d94f6 5%, #1e62d0 100%);
+//   background-color: #3d94f6;
+//   border-radius: 6px;
+//   border: 1px solid #337fed;
+//   display: inline-block;
+//   cursor: pointer;
+//   color: #ffffff;
+//   padding: 6px 24px;
+//   text-decoration: none;
+//   text-shadow: 0px 1px 0px #1570cd;
+// }
+// .admin-edit-button :hover {
+//   background: linear-gradient(to bottom, #1e62d0 5%, #3d94f6 100%);
+//   background-color: #1e62d0;
+// }
+// .admin-edit-button :active {
+//   position: relative;
+//   top: 1px;
+// }
+// .admin-delete-button {
+//   vertical-align: middle;
+//   display: inline-flex;
+//   margin: auto;
+//   margin-right: 30px;
+//   height: 50px;
+//   box-shadow: inset 0px 1px 1px 0px #f5978e;
+//   background: linear-gradient(to bottom, #f24537 5%, #c62d1f 100%);
+//   background-color: #f24537;
+//   border-radius: 6px;
+//   border: 1px solid #d02718;
+//   display: inline-block;
+//   cursor: pointer;
+//   color: #ffffff;
+//   padding: 6px 24px;
+//   text-decoration: none;
+//   text-shadow: 0px 1px 0px #810e05;
+// }
+// .admin-delete-button:hover {
+//   background: linear-gradient(to bottom, #c62d1f 5%, #f24537 100%);
+//   background-color: #c62d1f;
+// }
+// .admin-delete-button:active {
+//   position: relative;
+//   top: 1px;
+// }
+
+// .admin-resource-name {
+//   margin-left: 20px;
+//   font-size: 21px;
+// }
+
+// .admin-title {
+//   font-size: 30px;
+//   font-weight: bold;
+//   text-align: left;
+//   margin-left: 100px;
+//   padding-top: 10px;
+//   padding-bottom: 5px;
+// }
+// .admin-resources {
+//   margin: 10px;
+// }

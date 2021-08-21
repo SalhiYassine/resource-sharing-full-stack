@@ -1,0 +1,145 @@
+.sidebar {
+  min-width: 250px;
+  max-width: 250px;
+  color: #000;
+  margin-left: -250px;
+  background: rgba(255, 255, 255, 0.55);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(6.5px);
+  -webkit-backdrop-filter: blur(6.5px);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.dark .sidebar {
+  background: rgba(0, 0, 0, 0.55);
+}
+
+.sidebar.is-open {
+  margin-left: 0;
+  transition: 0.5s;
+}
+
+.sidebar-header .title {
+  color: #007bff;
+  margin: 1em;
+  padding: 1em;
+}
+
+.sidebar-header img {
+  display: inline-block;
+  height: 2.8em;
+  margin: 0.2em;
+  vertical-align: middle;
+}
+
+.sidebar-header h3 {
+  display: inline-block;
+  margin: 0.2em;
+  font-size: 1.7em;
+  vertical-align: middle;
+}
+
+.sidebar-toggle {
+  background-color: #007bff;
+  border: none;
+}
+
+.side-menu {
+  padding: 0 0.8em;
+}
+
+.sidebar ul p {
+  color: #c4c4c4;
+  padding: 10px;
+}
+
+.menu-open {
+  background: #6d7fcc;
+}
+
+.nav-item:first-child {
+  margin-top: 12%;
+}
+
+.nav-item {
+  margin: 0.5em 0;
+  border-radius: 1.5rem;
+  padding: 0 0.4rem;
+}
+
+.nav-item:hover {
+  color: #007bff;
+  background: rgba(255, 255, 255, 0.55);
+  box-shadow: 0 2px 12px 0 rgba(31, 38, 135, 0.2);
+  backdrop-filter: blur(6.5px);
+  -webkit-backdrop-filter: blur(6.5px);
+}
+
+.dark .nav-item:hover {
+  color: #007bff;
+  background: rgba(0, 0, 0, 0.4);
+  box-shadow: 0 2px 12px 0 rgba(31, 38, 135, 0.2);
+  backdrop-filter: blur(6.5px);
+  -webkit-backdrop-filter: blur(6.5px);
+}
+
+.items-menu {
+  color: #c4c4c4;
+  background: #6d7fcc;
+}
+
+li a.dropdown-toggle::after {
+  display: inline-flex;
+  position: relative;
+  left: 60%;
+  top: 10%;
+}
+
+.sidebar-header > span {
+  position: relative;
+  float: right;
+  margin: 0.5em;
+  font-size: 2rem;
+  cursor: pointer;
+  display: none;
+}
+
+.side-menu {
+  height: calc(100vh - 130px);
+  overflow-y: auto;
+}
+
+.side-menu::-webkit-scrollbar {
+  width: 10px;
+}
+
+.side-menu::-webkit-scrollbar-thumb {
+  background: #5466b3;
+  border-radius: 3px;
+}
+
+.side-menu::-webkit-scrollbar-thumb:hover {
+  background: #3a4c99;
+}
+
+.nav-links {
+  margin-left: 0.7rem;
+  align-items: center;
+}
+
+.dark .nav-link {
+  color: #fff;
+}
+
+.dark .nav-item:hover {
+  color: #007bff;
+}
+
+.nav-icons {
+  font-size: 2rem;
+}
+
+.side-menu .nav-link {
+  padding: 0.6rem 0.3rem;
+}

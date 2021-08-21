@@ -1,0 +1,199 @@
+.home-logo {
+  align-items: center;
+  height: 50px;
+}
+
+.home-resources-scroll {
+  height: calc(100vh - 3rem - 76.8px - 14px);
+  overflow-y: auto;
+}
+
+.home-graph-background {
+  border-radius: 30px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding: 4px;
+  backdrop-filter: blur(20px);
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+// .home-container {
+//   display: flex;
+//   flex-direction: row;
+//   flex: wrap;
+//   width: 100%;
+// }
+
+// .home-profile {
+//   padding-left: 10px;
+//   justify-content: space-between;
+//   align-self: center;
+//   display: flex;
+//   flex-direction: column;
+//   flex-basis: 100%;
+//   flex: 1;
+// }
+
+// .home-search {
+//   height: 50px;
+//   background: rgba(255, 255, 255, 0.25);
+//   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+//   backdrop-filter: blur(4px);
+//   -webkit-backdrop-filter: blur(4px);
+//   border-radius: 10px;
+//   border: 1px solid rgba(255, 255, 255, 0.18);
+// }
+
+// .home-search-field {
+//   padding: 10px;
+//   font-size: 17px;
+//   border: 1px solid grey;
+//   float: left;
+//   width: 100%;
+//   background: #f1f1f1;
+//   backdrop-filter: blur(4px);
+//   -webkit-backdrop-filter: blur(4px);
+//   border-radius: 10px;
+// }
+
+// .home-message-container {
+//   margin-top: 30px;
+//   height: 300px;
+//   overflow-y: auto;
+//   background: rgba(255, 255, 255, 0.25);
+//   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+//   backdrop-filter: blur(4px);
+//   -webkit-backdrop-filter: blur(4px);
+//   border-radius: 10px;
+//   border: 1px solid rgba(255, 255, 255, 0.18);
+// }
+// .home-resource-container {
+//   margin-top: 30px;
+//   height: 300px;
+//   overflow-y: auto;
+//   background: rgba(255, 255, 255, 0.25);
+//   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+//   backdrop-filter: blur(4px);
+//   -webkit-backdrop-filter: blur(4px);
+//   border-radius: 10px;
+//   border: 1px solid rgba(255, 255, 255, 0.18);
+// }
+
+// .home-message {
+//   background-color: aliceblue;
+//   margin-top: 20px;
+//   margin-left: 10px;
+//   margin-right: 10px;
+// }
+
+// .home-message-nickname {
+//   padding-left: 10px;
+//   padding-top: 10px;
+//   font-weight: bold;
+//   margin-bottom: 0px;
+// }
+
+// .home-message-field {
+//   padding-left: 15px;
+// }
+
+// .home-resource {
+//   display: flex;
+//   border-radius: 25px;
+//   margin-top: 10px;
+// }
+
+// .home-resource-view {
+//   background-color: aliceblue;
+//   margin-top: 20px;
+//   margin-left: 10px;
+//   margin-right: 10px;
+// }
+
+// .home-resource-nameInfo {
+//   padding: 10px;
+// }
+
+// .home-resource-user {
+//   padding: 10px;
+//   float: right;
+// }
+
+// .home-resource-uploaded-by {
+//   text-align: right;
+//   font-style: italic;
+// }
+
+// .home-resource-user {
+//   text-align: right;
+// }
+
+// .home-profile-container {
+//   background: rgba(255, 255, 255, 0.25);
+//   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+//   backdrop-filter: blur(4px);
+//   -webkit-backdrop-filter: blur(4px);
+//   border-radius: 10px;
+//   border: 1px solid rgba(255, 255, 255, 0.18);
+// }
+
+// .home-profile-profile-info-row {
+//   display: flex;
+// }
+// .home-profile-name {
+//   margin-left: 20px;
+// }
+
+// .home-profile-resources {
+//   margin-left: 100px;
+// }
+
+// .home-profile-rank {
+//   margin-left: 50px;
+// }
+
+// .home-user-nickname {
+//   font-size: 40px;
+//   font-weight: bold;
+// }
+
+// .home-user-username {
+//   font-style: italic;
+// }
+
+// .home-profile-number-resources {
+//   font-size: 35px;
+//   font-weight: bold;
+//   text-align: center;
+// }
+
+// .home-profile-rank-status {
+//   font-size: 35px;
+//   font-weight: bold;
+//   text-align: center;
+// }
+
+// .home-profile-rank-label {
+//   text-align: center;
+// }
+
+// .home-course-information-section {
+//   margin-top: 30px;
+//   padding-left: 10px;
+// }
+
+// .home-course-strong-subject-section {
+//   margin-top: 10px;
+// }
+
+// .home-course-description-section {
+//   margin-top: 10px;
+// }
+
+// .home-course-label {
+//   font-style: italic;
+// }
+
+// .home-course-info {
+//   font-size: 22px;
+// }
